@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  cursor: pointer;
+}
+
+.comment-body a {
+  color: rgba(0, 0, 0, 0.61);
+  text-decoration: underline;
+}
+
+.singlestory :hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.singlecomment :hover{
+  background-color: white;
+}
+
+.comment-story-text {
+  color: rgb(139,92,246)
+}
+
+.comment-story :hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.story-title :hover{
+  color: rgb(139,92,246);
+  text-decoration: underline;
+}
+
+.story-source :hover {
+  color: rgb(139,92,246);
+  text-decoration: underline;
+}
+
+.nav-items a:focus {
+  background-color: rgb(17,24,39);
+  color: #FFFFFF;
+}
+
+#pagination0 {
+  background-color: rgba(212, 207, 207, 0.624); 
+  color:rgb(139,92,246);
+}
